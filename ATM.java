@@ -271,6 +271,6 @@ public class ATM {
     memo = sc.nextLine();
 
     // do the withdraw
-    theUser.addAcctTransaction(toAcct, -1*amount, memo);
+    theUser.addAcctTransaction(toAcct, amount, memo);
   }
 }
